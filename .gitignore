@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+/CPP/HelloCpp11/*.db
+/CPP/HelloCpp11/*.user
+/CPP/HelloCpp11/enc_temp_folder
+/CPP/HelloCpp11/Debug
+/CS/HelloSharpWpf/HelloSharpWpf/bin
+/CS/HelloSharpWpf/HelloSharpWpf/obj
+/CPP/HelloCpp11/.vs/HelloCpp11/v14/*.suo
+/CS/HelloSharpWpf/HelloSharpWpf/.vs/HelloSharpWpf/v14/*.suo

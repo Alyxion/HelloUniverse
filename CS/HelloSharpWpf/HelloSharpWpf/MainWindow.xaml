@@ -1,0 +1,16 @@
+﻿<Window x:Class="HelloSharpWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HelloSharpWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid>
+            <TextBlock x:Name="textBlock" Margin="107.784,62.692,87.54,0" TextWrapping="Wrap" Text="Hello world, how are you doing?" Height="23.604" VerticalAlignment="Top"/>
+            <TextBox x:Name="moodBox" TextWrapping="Wrap" Text="Enter your mood here" ToolTip="Enter your mood here" Margin="107.784,108.829,142.209,0" Height="35.671" VerticalAlignment="Top"/>
+            <Button x:Name="sendButton" Content="Ok" Height="20" Margin="162.855,0,181.062,133.989" VerticalAlignment="Bottom" Click="sendButton_Click"/>
+        </Grid>
+    </Grid>
+</Window>
